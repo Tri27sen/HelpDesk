@@ -52,7 +52,7 @@ flowchart LR
     CL[(Channel layer<br/>in-memory dev / Redis prod)]
     DB[(Database<br/>SQLite dev / Postgres prod)]
     Media[(File storage<br/>local disk dev / S3-compatible prod)]
-    Mail[Email<br/>console dev / SMTP prod]
+    Console
 
     UI <-->|HTTPS REST, JWT bearer| API
     UI <-->|WSS, JWT in query string| WS
