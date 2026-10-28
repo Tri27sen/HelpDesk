@@ -9,7 +9,6 @@ Customer creates ticket → Agent self-assigns / Manager assigns → Comments an
 **Backend:** Django, Django REST Framework, Django Channels, Daphne (ASGI), SimpleJWT  
 **Frontend:** React (Vite), React Router, Recharts, Axios, native WebSocket API
 
-For additional details, see [`ARCHITECTURE.md`](./ARCHITECTURE.md), [`DEPLOYMENT.md`](./DEPLOYMENT.md), and [`INTERVIEW_PREP.md`](./INTERVIEW_PREP.md). Those separate documents may discuss proposed integrations; this README distinguishes them from the current implementation.
 
 ## Contents
 
